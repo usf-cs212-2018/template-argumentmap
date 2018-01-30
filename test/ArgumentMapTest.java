@@ -423,7 +423,7 @@ public class ArgumentMapTest {
 		@Test
 		public void testGetIntOkay() {
 			int expected = 42;
-			int actual = map.getInteger("-a", 42);
+			int actual = map.getInteger("-a", 100);
 			Assert.assertEquals(debug, expected, actual);
 		}
 
